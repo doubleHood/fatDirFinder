@@ -1,0 +1,77 @@
+2025/02/01-06:19:25 [INFO] fatDirFinder is Started
+2025/02/01-06:19:25 [INFO] BASE_DIR: /home/user/fatDirFinder
+2025/02/01-06:19:25 [INFO] OUTPUT_DIR: /home/user/fatDirFinder/data
+2025/02/01-06:19:25 [INFO] TARG_DIR: /home/user/test
+2025/02/01-06:19:25 [INFO] MAX_DEPTH: 3
+2025/02/01-06:19:25 [INFO] du start
+2025/02/01-06:19:25 [INFO] command du /home/user/test --max-depth 3 > /home/user/fatDirFinder/data/temp_2025-02-01.tsv
+2025/02/01-06:19:25 [INFO] du is completed
+2025/02/01-06:19:25 [INFO] making result file...
+2025/02/01-06:19:25 [INFO] making result is completed
+2025/02/01-06:19:25 [INFO] result file is here -> /home/user/fatDirFinder/data/result_2025-02-01.tsv
+2025/02/01-06:19:25 [INFO] remove temp file
+2025/02/01-06:19:25 [INFO] Finish!
+2025/02/01-06:20:50 [INFO] fatDirFinder is Started
+2025/02/01-06:20:50 [INFO] BASE_DIR: /home/user/fatDirFinder
+2025/02/01-06:20:50 [INFO] OUTPUT_DIR: /home/user/fatDirFinder/data
+2025/02/01-06:20:50 [INFO] TARG_DIR: /home/user/test
+2025/02/01-06:20:50 [INFO] MAX_DEPTH: 3
+2025/02/01-06:20:50 [INFO] du start
+2025/02/01-06:20:50 [INFO] command du /home/user/test --max-depth 3 > /home/user/fatDirFinder/data/temp_2025-02-01.tsv
+2025/02/01-06:20:50 [INFO] du is completed
+2025/02/01-06:20:50 [INFO] making result file...
+2025/02/01-06:20:50 [INFO] making result is completed
+2025/02/01-06:20:50 [INFO] result file is here -> /home/user/fatDirFinder/data/result_2025-02-01.tsv
+2025/02/01-06:20:50 [INFO] finding last time result...
+2025/02/01-06:20:50 [INFO] last time result is here! -> 03:26
+2025/02/01-06:20:50 [INFO] AutoDiff is ready
+2025/02/01-06:20:50 [INFO] remove temp file
+2025/02/01-06:20:50 [INFO] Finish!
+2025/02/01-06:22:29 [INFO] fatDirFinder is Started
+2025/02/01-06:22:29 [INFO] BASE_DIR: /home/user/fatDirFinder
+2025/02/01-06:22:29 [INFO] OUTPUT_DIR: /home/user/fatDirFinder/data
+2025/02/01-06:22:29 [INFO] TARG_DIR: /home/user/test
+2025/02/01-06:22:29 [INFO] MAX_DEPTH: 3
+2025/02/01-06:22:29 [INFO] du start
+2025/02/01-06:22:29 [INFO] command du /home/user/test --max-depth 3 > /home/user/fatDirFinder/data/temp_2025-02-01.tsv
+2025/02/01-06:22:29 [INFO] du is completed
+2025/02/01-06:22:29 [INFO] making result file...
+2025/02/01-06:22:29 [INFO] making result is completed
+2025/02/01-06:22:29 [INFO] result file is here -> /home/user/fatDirFinder/data/result_2025-02-01.tsv
+2025/02/01-06:22:29 [INFO] finding last time result...
+2025/02/01-06:22:29 [INFO] last time result is here! -> 03:26
+2025/02/01-06:22:29 [INFO] AutoDiff is ready
+2025/02/01-06:22:29 [INFO] remove temp file
+2025/02/01-06:22:29 [INFO] Finish!
+2025/02/01-06:23:32 [INFO] fatDirFinder is Started
+2025/02/01-06:23:32 [INFO] BASE_DIR: /home/user/fatDirFinder
+2025/02/01-06:23:32 [INFO] OUTPUT_DIR: /home/user/fatDirFinder/data
+2025/02/01-06:23:32 [INFO] TARG_DIR: /home/user/test
+2025/02/01-06:23:32 [INFO] MAX_DEPTH: 3
+2025/02/01-06:23:32 [INFO] du start
+2025/02/01-06:23:32 [INFO] command du /home/user/test --max-depth 3 > /home/user/fatDirFinder/data/temp_2025-02-01.tsv
+2025/02/01-06:23:32 [INFO] du is completed
+2025/02/01-06:23:32 [INFO] making result file...
+2025/02/01-06:23:32 [INFO] making result is completed
+2025/02/01-06:23:32 [INFO] result file is here -> /home/user/fatDirFinder/data/result_2025-02-01.tsv
+2025/02/01-06:23:32 [INFO] finding last time result...
+2025/02/01-06:23:32 [INFO] last time result is here! -> result_2025-01-31.tsv
+2025/02/01-06:23:32 [INFO] AutoDiff is ready
+2025/02/01-06:23:32 [INFO] remove temp file
+2025/02/01-06:23:32 [INFO] Finish!
+2025/02/01-06:26:20 [INFO] fatDirFinder is Started
+2025/02/01-06:26:20 [INFO] BASE_DIR: /home/user/fatDirFinder
+2025/02/01-06:26:20 [INFO] OUTPUT_DIR: /home/user/fatDirFinder/data
+2025/02/01-06:26:20 [INFO] TARG_DIR: /home/user/test
+2025/02/01-06:26:20 [INFO] MAX_DEPTH: 3
+2025/02/01-06:26:20 [INFO] du start
+2025/02/01-06:26:20 [INFO] command du /home/user/test --max-depth 3 > /home/user/fatDirFinder/data/temp_2025-02-01.tsv
+2025/02/01-06:26:20 [INFO] du is completed
+2025/02/01-06:26:20 [INFO] making result file...
+2025/02/01-06:26:20 [INFO] making result is completed
+2025/02/01-06:26:20 [INFO] result file is here -> /home/user/fatDirFinder/data/result_2025-02-01.tsv
+2025/02/01-06:26:20 [INFO] finding last time result...
+2025/02/01-06:26:20 [INFO] last time result is here! -> result_2025-01-31.tsv
+2025/02/01-06:26:20 [INFO] AutoDiff is ready
+2025/02/01-06:26:20 [INFO] remove temp file
+2025/02/01-06:26:20 [INFO] Finish!
