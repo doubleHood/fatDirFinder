@@ -15,7 +15,7 @@ echo "$(date +%Y/%m/%d-%T) [INFO] MAX_DEPTH: ${MAX_DEPTH}" >> ${FDF_LOG_FILE}
 # 設定したディレクトリおよび深さにduしテンポラリファイル作成
 echo "$(date +%Y/%m/%d-%T) [INFO] du start" >> ${FDF_LOG_FILE}
 echo "$(date +%Y/%m/%d-%T) [INFO] command du ${TARG_DIR} --max-depth ${MAX_DEPTH} > ${OUTPUT_DIR}/temp_$(date -I).tsv" >> ${FDF_LOG_FILE}
-du ${TARG_DIR} --max-depth ${MAX_DEPTH} > ${OUTPUT_DIR}/temp_$(date -I).tsv
+du -m ${TARG_DIR} --max-depth ${MAX_DEPTH} > ${OUTPUT_DIR}/temp_$(date -I).tsv
 echo "$(date +%Y/%m/%d-%T) [INFO] du is completed" >> ${FDF_LOG_FILE}
 
 # 出力したdu結果をサイズ\tパスからパス\tサイズに入れ替えてソートし主キーに
@@ -30,10 +30,10 @@ echo "$(date +%Y/%m/%d-%T) [INFO] making result is completed" >> ${FDF_LOG_FILE}
 echo "$(date +%Y/%m/%d-%T) [INFO] result file is here -> ${OUTPUT_DIR}/result_$(date -I).tsv" >> ${FDF_LOG_FILE}
 
 # 引数指定がある場合、直前実行分と自動差分取得
-if [ "$1" = "autoDiff" ]; then
+if [ "$2" = "autoDiff" ]; then
 	# 前回実施のファイルを探索
 	echo "$(date +%Y/%m/%d-%T) [INFO] finding last time result..." >> ${FDF_LOG_FILE}
-	LAST_TIME_RESULT=$(ls -lt ${OUTPUT_DIR} | grep -v total | grep -v $(date -I) | grep -v '^\s*$' | grep result | cut -d " " -f 11 | head -1)
+	LAST_TIME_RESULT=$(ls -t ${OUTPUT_DIR} | grep -v total | grep -v $(date -I) | grep -v '^\s*$' | grep result | head -1)
 	if [ -n LAST_TIME_RESULT ]; then
 		echo "$(date +%Y/%m/%d-%T) [INFO] last time result is here! -> ${LAST_TIME_RESULT}" >> ${FDF_LOG_FILE}
 		echo -e "path\tresult_$(date -I).tsv\t${LAST_TIME_RESULT}" > ${OUTPUT_DIR}/AutoDiff_$(date -I).tsv

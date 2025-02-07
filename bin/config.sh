@@ -10,6 +10,6 @@ FDF_LOG_FILE=$(dirname $0)/log/fatDirFinder.log
 # 初期値はbase_dir配下dataディレクトリ
 OUTPUT_DIR="${BASE_DIR}/data"
 # duを仕掛けるディレクトリを指定
-TARG_DIR="/home/user/test"
+TARG_DIR="$1"
 # duを仕掛ける深さを指定
 MAX_DEPTH="3"

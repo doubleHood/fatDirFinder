@@ -8,15 +8,15 @@
 ---------------------------------------
 ### 0.シンボリックリンクの作成
 ```
-cd [install_dir]
+cd [install_dir]/fatDirFinder
 ln -s ../fatDirFinder/bin/fatDirFinder.sh boot_fatDirFinder.sh
 ```
 
 ### 1.実行
 ```
-bash [install_dir]/fatDirFinder/boot_fatDirFinder.sh
+bash [install_dir]/fatDirFinder/boot_fatDirFinder.sh [検索対象ディレクトリパス]
 [実行例:/home/user配下に配置している場合]
- bash /home/user/fatDirFinder/boot_fatDirFinder.sh
+ bash /home/user/fatDirFinder/boot_fatDirFinder.sh /opt
 ```
 
 ### 2.差分を取る
@@ -26,7 +26,7 @@ bash [install_dir]/fatDirFinder/boot_fatDirFinder.sh
  * boot_fatDirFinder.sh打鍵時に"autoDiff"を引数として渡しておくと、
   * 自動でデータ蓄積先ディレクトリに前回実行時との差分を出力します
 ```
-[実行例] bash /home/user/fatDirFinder/boot_fatDirFinder.sh autoDiff
+[実行例] bash /home/user/fatDirFinder/boot_fatDirFinder.sh /opt autoDiff
 ```
 
 ---------------------------------------
